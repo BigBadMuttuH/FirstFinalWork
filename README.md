@@ -11,3 +11,6 @@
 
 ["Russia", "Denmark", "Kazan"] -> []
 ```
+![Алгоритм](https://github.com/BigBadMuttuH/FirstFinalWork/blob/master/jpg/алгоритм.jpg)
+
+[Решение](https://github.com/BigBadMuttuH/FirstFinalWork/blob/master/FirstFinalWork/FirstFinalWork.cs)
