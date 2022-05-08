@@ -12,6 +12,7 @@ namespace FirstFinalWorkTest
             Assert.AreEqual(expectedResult,
                 FirstFinalWork.Get3CharsStrinArray(new[] { "Hello", "2", "world", ":-)" }));
         }
+
         [Test]
         public void Get3CharsStrinArrayTest02()
         {
@@ -20,6 +21,7 @@ namespace FirstFinalWorkTest
             Assert.AreEqual(expectedResult,
                 FirstFinalWork.Get3CharsStrinArray(new[] { "1234", "1567", "-2", "computer science" }));
         }
+
         [Test]
         public void Get3CharsStrinArrayTest03()
         {
@@ -28,15 +30,27 @@ namespace FirstFinalWorkTest
             Assert.AreEqual(expectedResult,
                 FirstFinalWork.Get3CharsStrinArray(new[] { "Russia", "Denmark", "Kazan" }));
         }
+
         [Test]
         public void Get3CharsStrinArrayTest04()
+        {
+            string[] expectedResult = new string[]  { "DE", "KAZ" };
+
+            Assert.AreEqual(expectedResult,
+                FirstFinalWork.Get3CharsStrinArray(new[] { "RURR", "DE", "KAZ" }));
+        }
+
+        [Test]
+        public void Get3CharsStrinArrayTest05()
         {
             string[] expectedResult = new string[] {};
 
             Assert.AreEqual(expectedResult,
                 FirstFinalWork.Get3CharsStrinArray(new string[] { }));
         }
-        public void Get3CharsStrinArrayTest05()
+
+        [Test]
+        public void Get3CharsStrinArrayTest06()
         {
             string[] expectedResult = new string[] {};
 
